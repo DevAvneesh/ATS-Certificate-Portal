@@ -1354,3 +1354,43 @@ body {
         font-size: 24px;
     }
 }
+/* =========================================================
+   CERTIFICATE NUMBER
+========================================================= */
+
+.certificate-number {
+
+    position: absolute;
+
+    left: 50%;
+
+    bottom: 9mm;
+
+    transform: translateX(-50%);
+
+    z-index: 15;
+
+    font-family: "Montserrat", sans-serif;
+
+    font-size: 10px;
+
+    font-weight: 600;
+
+    letter-spacing: 0.5px;
+
+    color: #173b82;
+
+    white-space: nowrap;
+
+    text-align: center;
+}
+
+
+.certificate-number span {
+
+    font-weight: 800;
+
+    color: #173b82;
+
+    letter-spacing: 0.8px;
+}

@@ -150,6 +150,17 @@ function populateCertificate(student) {
 
     document.getElementById("majorSubject").innerText =
         cleanText(student["Major Subject"]).toUpperCase();
+
+           // ==========================================
+    // CERTIFICATE NUMBER
+    // ==========================================
+
+    const certificateNumber =
+        "ATSA-2026-" +
+        String(1000 + Number(student["S No."])).padStart(4, "0");
+
+    document.getElementById("certificateNumber").textContent =
+        certificateNumber;
 }
 
 
